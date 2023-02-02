@@ -2,6 +2,7 @@
 name = "rust-blockchain"
 version = "0.1.0"
 edition = "2021"
+authors = ["Sunday Mgbogu digitalsimboja@gmail.com"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -19,10 +20,12 @@ futures = "0.3.25"
 hex = "0.4.3"
 isahc = "1.7.2"
 log = "0.4.17"
+rusqlite = "0.28.0"
 rust-crypto = "0.2.36"
 serde = { version = "1.0.152", features = ["derive"] }
 serde_json = "1.0.91"
 thiserror = "1.0.38"
+tokio = "1.25.0"
 
 [dev-dependencies]
 assert_cmd = "2.0.8"
